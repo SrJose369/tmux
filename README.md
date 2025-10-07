@@ -1,0 +1,3 @@
+# Tmux Config ._.
+
+owo
