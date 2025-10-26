@@ -58,10 +58,6 @@ dark3="#545c7e" # color texto windows inactiva
 tmux set -g status-right "
 $git_status
 #[fg=${blue0},bg=default]
-#[fg=#ffffff,bg=${blue0}] #[fg=${blue0},bg=${date_bg}]
-#[fg=${date_fg},bg=${date_bg}] $weather
-#[fg=${date_bg},bg=default]
-#[fg=${blue0},bg=default]
 #[fg=#ffffff,bg=${blue0}] #[fg=${blue0},bg=${date_bg}]
 #[fg=${date_fg},bg=${date_bg}] #(date '+%Y-%m-%d %H:%M')"
 

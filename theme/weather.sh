@@ -2,6 +2,7 @@
 
 plugin_weather_location="Buenos Aires, Argentina"
 plugin_weather_format_string="%t+H:%h"
+# plugin_weather_format_string="%c%t"
 
 if ! command -v jq &>/dev/null; then
 	exit 1
@@ -13,4 +14,3 @@ else
 fi
 WEATHER=$(curl -sL wttr.in/"${LOCATION// /%20}"\?format="${plugin_weather_format_string}" 2>/dev/null)
 echo "${WEATHER}"
-echo "${WEATHER}" >> /weather.log
